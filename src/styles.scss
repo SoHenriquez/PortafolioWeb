@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import 'animate.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer reset, primeng;
+
+body::-webkit-scrollbar {
+    width: 14px;
+    height: 8px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #ebebeb 14%,#f0f0f0 64%);
+    border-radius: 10px;
+  }
+  body::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #e0e0e0 14%,#cccccc 64%);
+  }
