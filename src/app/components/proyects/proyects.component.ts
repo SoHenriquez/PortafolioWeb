@@ -4,6 +4,7 @@ import { CardModule } from 'primeng/card';
 import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
+import { TooltipModule } from 'primeng/tooltip';
 
 interface Products {
   id: string;
@@ -21,7 +22,7 @@ interface Products {
 @Component({
   selector: 'app-proyects',
   standalone: true,
-  imports: [CardModule, CarouselModule, ButtonModule, RippleModule],
+  imports: [CardModule, CarouselModule, ButtonModule, RippleModule, TooltipModule],
   templateUrl: './proyects.component.html',
   styleUrl: './proyects.component.scss'
 })
