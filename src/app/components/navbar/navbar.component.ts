@@ -10,12 +10,5 @@ import { TooltipModule } from 'primeng/tooltip';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-  CV_FILE_PATH = 'assets/Curriculum_vitae_Esteban_Soto_Henríquez.pdf'; 
-  constructor() {
-    
-    
-  }
-  downloadFile() {
-    
-  }
+ 
 }

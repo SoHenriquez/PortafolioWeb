@@ -30,7 +30,7 @@ import { TooltipModule } from 'primeng/tooltip';
 })
 export class HomeComponent {
   url = './data/data.json';
-  title = 'portafolio';
+  title = 'Esteban Soto';
   
   
 
